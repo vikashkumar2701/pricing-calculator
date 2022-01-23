@@ -1,0 +1,148 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.nav{
+  background-color: black;
+  color:white;
+}
+h1{
+ 
+  
+  font-weight: 800;
+  padding:10px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.fa-calculator{
+  color:white;
+  background-attachment;
+  background-color:black;
+  padding:10px;
+  
+
+}
+.header{
+  padding-top: 20px;
+  display: flex;
+  border-bottom: 1px;
+  border-width: 1px;
+  border-bottom-style: outset;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  border-color: #484fac;
+}
+.payoutmodes{
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  
+  
+
+}
+.payoutmodes .cards{
+  padding-top: 10px;
+  width:100%;
+  min-width:350px;
+  max-width:350px;
+  height:70px;
+  border:none;
+  background-color: transparent;
+  border: 1px solid #1a73e8;
+  
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight:600;
+  box-sizing: border-box;
+  padding: var(0 24px,0 16px);
+  outline-color rgb(26, 115, 232);
+  margin:2px;
+  height:auto;
+}
+.payoutmodes button:hover{
+  -webkit-transition: background-color .2s,border .2s,box-shadow .2s;
+  transition: background-color .2s,border .2s,box-shadow .2s;
+  border:none;
+  background: #e8f0fe;
+  border: 1px solid #484fac;
+  
+}
+.form{
+  display: flex;
+  
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    padding-top:30px;
+}
+
+input[type="text"]{
+  padding:20px;
+  border: 1px solid #1a73e8;
+  width:100%;
+  max-width: 350px;
+}
+input[type="text"]:focus{
+  padding:20px;
+  border: 1px solid ##323232;
+  
+
+}
+
+.payouttitle{
+  display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+ 
+  
+}
+
+
+.dedx{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+padding-left:10px;
+padding-right:10px;
+line-height: 50px;
+}
+.colon{
+  content: "Email address: ";
+}
+.blue{
+  background-color: #1a73e8;
+  color:#fff;
+}
+.hoax{
+
+  padding:20px;
+  
+  
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+
+  
+}
+.notice{
+  font-size: 20px;
+  font-color:navy;
+  
+  border: 1px solid;
+  padding:3px;
+  background-color:black;
+  color:white;
+  
+}
